@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],[,,,function(n,e,t){n.exports=t(11)},,,,,,function(n,e,t){},function(n,e,t){},function(n,e,t){"use strict";t.r(e);var o=t(0),a=t.n(o),c=t(2),r=t.n(c);t(9),t(10);var i=function(){return a.a.createElement("div",{className:"App"},"Holle, amigo!")};r.a.render(a.a.createElement(i,null),document.getElementById("root"))}],[[3,1,2]]]);
-//# sourceMappingURL=main.fda78732.chunk.js.map
