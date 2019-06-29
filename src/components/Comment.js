@@ -1,9 +1,10 @@
 import React from 'react'
 
 function Comment(props) {
+  const { comment } = props;
   return (
     <div className="comment">
-      Comment
+      <h5>{comment.body}</h5>
     </div>
   )
 }
