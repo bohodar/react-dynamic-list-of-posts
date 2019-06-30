@@ -3,7 +3,7 @@ import CommentList from './CommentList'
 import User from './User'
 
 function Post(props) {
-  const { post, user, comments } = props;
+  const { post, user, onShowComments, postIndex } = props;
   return (
     <div className="rightside-item">
       <div className="rightside-item__top">
@@ -18,12 +18,10 @@ function Post(props) {
           <code>{post.body}</code>
         </div>
       </div>
-      <div className="rightside-item__bottom">
-        <CommentList
-          comments={comments}
-          postId={post.id}
-        />
-      </div>
+      <CommentList
+        post={post}
+        onShowComments={onShowComments}
+      />
     </div>
   )
 }

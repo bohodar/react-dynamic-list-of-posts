@@ -1,0 +1,78 @@
+#circularG{
+    position:relative;
+    width:58px;
+    height:58px;
+    margin: auto;
+}
+
+.circularG{
+    position:absolute;
+    background-color:rgb(255,255,255);
+    width:14px;
+    height:14px;
+    border-radius:9px;
+    animation-name:bounce_circularG;
+    animation-duration:0.718s;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+}
+
+#circularG_1{
+    left:0;
+    top:23px;
+    animation-delay:0.268s;
+}
+
+#circularG_2{
+    left:6px;
+    top:6px;
+    animation-delay:0.364s;
+}
+
+#circularG_3{
+    top:0;
+    left:23px;
+    animation-delay:0.45s;
+}
+
+#circularG_4{
+    right:6px;
+    top:6px;
+    animation-delay:0.536s;
+}
+
+#circularG_5{
+    right:0;
+    top:23px;
+    animation-delay:0.632s;
+}
+
+#circularG_6{
+    right:6px;
+    bottom:6px;
+    animation-delay:0.718s;
+}
+
+#circularG_7{
+    left:23px;
+    bottom:0;
+    animation-delay:0.814s;
+}
+
+#circularG_8{
+    left:6px;
+    bottom:6px;
+    animation-delay:0.9s;
+}
+
+
+
+@keyframes bounce_circularG{
+    0%{
+        transform:scale(1);
+    }
+
+    100%{
+        transform:scale(.3);
+    }
+}

@@ -7,7 +7,7 @@ function User(props) {
       "leftside-item leftside-item--selected" :
       "leftside-item"
     }>
-      <p><h3>{user.name}</h3></p>
+      <p><b>{user.name}</b></p>
       <p><code>{user.email}</code></p>
       <button
         className="leftside-item--button"
